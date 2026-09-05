@@ -19,14 +19,18 @@
         <h2>Bem-vindo ao jogo de jokenpô!</h2>
 
         <div class="buttons">
-            <button id="rock"><span style='font-size:100px;'>&#128074;</span></button>
-            <button id="paper"><span style='font-size:100px;'>&#9995;</span></button>
-            <button id="scissors"><span style='font-size:100px;'>&#9996;</span></button>
+            <button id="rock" onclick="playHuman('rock')"><span style='font-size:100px;'>&#128074;</span></button>
+            <button id="paper" onclick="playHuman('paper')"><span style='font-size:100px;'>&#9995;</span></button>
+            <button id="scissors" onclick="playHuman('scissors')"><span style='font-size:100px;'>&#9996;</span></button>
         </div>
-
-        <p class="your-score">Sua Pontuação: <span id="score">0</span></p>
-        <p class="machine-score">Pontuação da Máquina: <span id="score">0</span></p>
-    </div>
+        
+       <img class="result" src="">
+        
+        
+        <div>
+            <p class="your-score">Sua Pontuação: <span id="score">0</span></p>
+            <p class="machine-score">Pontuação da Máquina: <span id="score">0</span></p>
+        </div>
 </body>
 
 </html>
