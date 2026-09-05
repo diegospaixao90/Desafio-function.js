@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://picsum.photos/1920/1080');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+h1 {
+    color: rgb(209, 3, 3);
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Ewert", serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(5, 2, 0);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Ewert", serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    padding: 20px;
+    background-color: rgba(219, 240, 29, 0.5);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+button {
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: opacity 0.3s ease-in-out;
+
+}
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#rock {
+    background-color: rgba(250, 11, 3, 0.5);
+}
+
+#paper {
+    background-color: rgba(44, 88, 3, 0.5);
+}
+
+#scissors {
+    background-color: rgba(3, 11, 250, 0.5);
+}
+
+p {
+font-size: 30px;
+font-weight: 400;
+font-family: "Archivo Black", sans-serif;
+margin-bottom: 10px;
+}
+
+.your-score span {
+    color: rgb(3, 110, 9);
+}
+
+.machine-score span {
+    color: rgb(250, 3, 3);
+}
